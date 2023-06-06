@@ -1,0 +1,192 @@
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~
+$ cd desktop
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop (master)
+$ mkdir 20230605-AracellyLetelier
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop (master)
+$ cd 20230605-AracellyLetelier
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git init
+Initialized empty Git repository in C:/Users/Alumno/Desktop/20230605-AracellyLetelier/.git/
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git config user.name "AracellyLetelier"
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git config user.email "aracellyletelier@outlook.com"
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git remote add origin https://github.com/AracellyLetelier/20230605-AracellyLetelier.git
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git remote -v
+origin  https://github.com/AracellyLetelier/20230605-AracellyLetelier.git (fetch)
+origin  https://github.com/AracellyLetelier/20230605-AracellyLetelier.git (push)
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ touch comandos.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ touch main.js
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ touch index.html
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git add .
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git commit -m "commit 01 de AracellyLetelier"
+[master (root-commit) 6079623] commit 01 de AracellyLetelier
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 245 bytes | 245.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AracellyLetelier/20230605-AracellyLetelier.git
+ * [new branch]      master -> master
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git branch <feature>
+bash: syntax error near unexpected token `newline'
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git branch feature
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git checkout feature
+Switched to branch 'feature'
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ mkdir Hardware
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ mkdir Software
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ mkdir SeguridadInformatica
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ cd Hardware
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier/Hardware (feature)
+$ touch resumen.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier/Hardware (feature)
+$ cd ..
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ cd Software
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier/Software (feature)
+$ touch resumen.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier/Software (feature)
+$ cd ..
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ cd SeguridadInformatica
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier/SeguridadInformatica (feature)
+$ touch resumen.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier/SeguridadInformatica (feature)
+$ cd ..
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ git add .
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ git commit -m "commit 02 de AracellyLetelier"
+[feature 211dc27] commit 02 de AracellyLetelier
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ git status
+On branch feature
+nothing to commit, working tree clean
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ git log
+commit 211dc2771a83f6494b00a00b5de3bc324d4f59f1 (HEAD -> feature)
+Author: AracellyLetelier <aracellyletelier@outlook.com>
+Date:   Mon Jun 5 23:20:59 2023 -0400
+
+    commit 02 de AracellyLetelier
+
+commit 60796231b0b93b180d5c95a5833eabece6e1b850 (origin/master, master)
+Author: AracellyLetelier <aracellyletelier@outlook.com>
+Date:   Mon Jun 5 23:08:47 2023 -0400
+
+    commit 01 de AracellyLetelier
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 380 bytes | 380.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/AracellyLetelier/20230605-AracellyLetelier/pull/new/feature
+remote:
+To https://github.com/AracellyLetelier/20230605-AracellyLetelier.git
+ * [new branch]      feature -> feature
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (feature)
+$ git checkout master
+Switched to branch 'master'
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ mv main.js resumenHardware.txt/
+mv: cannot move 'main.js' to 'resumenHardware.txt/': No such file or directory
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git s
+git: 's' is not a git command. See 'git --help'.
+
+The most similar commands are
+        show
+        status
+        switch
+        lfs
+        svn
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git mv main.js resumenHardware.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ git mv index.html resumenSoftware.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ cd resumenSoftware.txt
+bash: cd: resumenSoftware.txt: Not a directory
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ nano resumenSoftware.txt
+
+Alumno@DESKTOP-UMQPM66 MINGW64 ~/desktop/20230605-AracellyLetelier (master)
+$ nano resumenHardware.txt
